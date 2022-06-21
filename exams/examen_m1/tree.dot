@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="c_AGE <= 32.5\ngini = 0.401\nsamples = 48211\nvalue = [34809, 13402]"] ;
+1 [label="c_AGE <= 21.5\ngini = 0.44\nsamples = 23450\nvalue = [15777, 7673]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="c_AGE <= 19.5\ngini = 0.463\nsamples = 8697\nvalue = [5531, 3166]"] ;
+1 -> 2 ;
+3 [label="gini = 0.475\nsamples = 4164\nvalue = [2551, 1613]"] ;
+2 -> 3 ;
+4 [label="gini = 0.45\nsamples = 4533\nvalue = [2980, 1553]"] ;
+2 -> 4 ;
+5 [label="c_AGE <= 28.5\ngini = 0.424\nsamples = 14753\nvalue = [10246, 4507]"] ;
+1 -> 5 ;
+6 [label="c_AGE <= 24.5\ngini = 0.428\nsamples = 10136\nvalue = [6990, 3146]"] ;
+5 -> 6 ;
+7 [label="gini = 0.429\nsamples = 4900\nvalue = [3371, 1529]"] ;
+6 -> 7 ;
+8 [label="gini = 0.427\nsamples = 5236\nvalue = [3619, 1617]"] ;
+6 -> 8 ;
+9 [label="gini = 0.416\nsamples = 4617\nvalue = [3256, 1361]"] ;
+5 -> 9 ;
+10 [label="c_AGE <= 44.5\ngini = 0.356\nsamples = 24761\nvalue = [19032, 5729]"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="c_AGE <= 38.5\ngini = 0.377\nsamples = 13545\nvalue = [10137, 3408]"] ;
+10 -> 11 ;
+12 [label="gini = 0.387\nsamples = 7361\nvalue = [5428, 1933]"] ;
+11 -> 12 ;
+13 [label="gini = 0.363\nsamples = 6184\nvalue = [4709, 1475]"] ;
+11 -> 13 ;
+14 [label="c_AGE <= 56.5\ngini = 0.328\nsamples = 11216\nvalue = [8895, 2321]"] ;
+10 -> 14 ;
+15 [label="gini = 0.338\nsamples = 7322\nvalue = [5744, 1578]"] ;
+14 -> 15 ;
+16 [label="gini = 0.309\nsamples = 3894\nvalue = [3151, 743]"] ;
+14 -> 16 ;
+}
