@@ -9,6 +9,7 @@ import unicodedata
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 import re
+import numpy as np
 
 def rename_variables(df, columns,prefix):
     """
