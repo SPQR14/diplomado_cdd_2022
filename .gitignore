@@ -239,3 +239,7 @@ modulo_1/data/olap_oltp/oltp.csv
 .vscode
 data/
 material/
+*.joblib
+*.pkl
+*.csv
+*.xlsx
