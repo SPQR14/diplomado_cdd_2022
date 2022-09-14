@@ -18,9 +18,6 @@ La función será evaluada por 10 strings, y tiene que poder ejecutar en Google 
 __author__ = "Alberto Isaac Pico Lara"
 __date__ = "domingo 4/09/2022"
 
-from itertools import count
-
-
 def valley_counts(cadena:str):
 
     # Verificamos la longitud de la cadena, según el requirimiento puede ser de 2 a 10,000,000
